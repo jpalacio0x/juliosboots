@@ -1,3 +1,10 @@
+# v2.3.0
+
+- Added a new crafting recipe: Netherite Boots + Elytra
+- Expanded support for Minecraft versions 1.20.1 through 1.21.5
+- Optimized project metadata and internal codebase structure
+- Improved multi-version compatibility using Stonecutter
+
 # v1.0.5
 
 - (Fabric) Fixed the player still being able to fly after the winged sandals break
