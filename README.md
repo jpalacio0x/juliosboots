@@ -37,7 +37,7 @@ Currently supporting:
 ### Crafting
 Combine **Netherite Boots** and an **Elytra** in any crafting grid.
 
-![Crafting Recipe](https://github.com/adil192/WingedSandals/raw/main/.github/gallery/crafting_recipe.png)
+![Crafting Recipe](https://github.com/jpalacio0x/juliosboots/blob/f312ee11488d31da44e7a72986c1a0ea09dd9000/.github/gallery/Crafting.png)
 *(Recipe now uses Netherite instead of Gold)*
 
 ### Usage
