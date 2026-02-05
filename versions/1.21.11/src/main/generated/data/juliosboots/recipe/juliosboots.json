@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:netherite_boots",
+    "minecraft:elytra"
+  ],
+  "result": {
+    "count": 1,
+    "id": "juliosboots:juliosboots"
+  }
+}

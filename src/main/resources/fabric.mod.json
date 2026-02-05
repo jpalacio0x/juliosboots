@@ -1,30 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "wingedsandals",
+	"id": "juliosboots",
 	"version": "${version}",
-	"name": "WingedSandals",
+	"name": "Julio's Boots",
 	"description": "Special boots that give you creative-style flight",
 	"authors": [
-		"adil192"
+		"xtifed"
 	],
 	"contact": {
-		"homepage": "https://github.com/adil192/WingedSandals",
-		"sources": "https://github.com/adil192/WingedSandals",
-		"issues": "https://github.com/adil192/WingedSandals/issues"
+		"homepage": "https://github.com/jpalacio0x/juliosboots",
+		"sources": "https://github.com/jpalacio0x/juliosboots",
+		"issues": "https://github.com/jpalacio0x/juliosboots/issues"
 	},
 	"license": "MIT",
-	"icon": "assets/wingedsandals/icon.png",
+	"icon": "assets/juliosboots/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
-				"value": "com.adilhanney.wingedsandals.WingedSandals",
+				"value": "com.xtifed.juliosboots.JuliosBoots",
 				"adapter": "kotlin"
 			}
 		],
 		"fabric-datagen": [
 			{
-				"value": "com.adilhanney.wingedsandals.WingedSandalsDataGenerator",
+				"value": "com.xtifed.juliosboots.JuliosBootsDataGenerator",
 				"adapter": "kotlin"
 			}
 		]
