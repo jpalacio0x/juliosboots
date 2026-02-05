@@ -40,4 +40,6 @@ replay_*.log
 *.jfr
 
 .kotlin/
+.claude/
+debug_screenshot.png
 versions/*/src/main/generated/.cache/
