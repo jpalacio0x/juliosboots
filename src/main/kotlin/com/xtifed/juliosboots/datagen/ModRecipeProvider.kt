@@ -21,6 +21,9 @@ import net.minecraft.data.server.recipe.RecipeGenerator
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder
 import net.minecraft.registry.RegistryWrapper
 import java.util.concurrent.CompletableFuture
+*///?} else if >=1.20.2 {
+/*import net.minecraft.data.server.recipe.RecipeExporter
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder
 *///?} else {
 import net.minecraft.data.server.recipe.RecipeJsonProvider
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder
@@ -48,7 +51,7 @@ class ModRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output)
   }
   *///?} else {
   override fun generate(
-    exporter: /*? if >=1.20.5 {*/ /*RecipeExporter *//*?} else {*/ Consumer<RecipeJsonProvider> /*?}*/
+    exporter: /*? if >=1.20.2 {*/ /*RecipeExporter *//*?} else {*/ Consumer<RecipeJsonProvider> /*?}*/
   ) {
     ShapelessRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.juliosBoots)
       .input(Items.NETHERITE_BOOTS)

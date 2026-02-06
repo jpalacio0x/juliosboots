@@ -34,12 +34,23 @@ The mod hooks into a server tick event: every tick it checks whether the boots a
 
 | Minecraft | Status |
 |---|---|
-| 1.21.11 (Mounts of Mayhem) | Supported |
+| 1.21.11 | Supported |
+| 1.21.10 | Supported |
+| 1.21.9 | Supported |
+| 1.21.8 | Supported |
+| 1.21.7 | Supported |
+| 1.21.6 | Supported |
 | 1.21.5 | Supported |
 | 1.21.4 | Supported |
+| 1.21.3 | Supported |
 | 1.21.2 | Supported |
 | 1.21.1 | Supported |
+| 1.21 | Supported |
+| 1.20.6 | Supported |
 | 1.20.5 | Supported |
+| 1.20.4 | Supported |
+| 1.20.3 | Supported |
+| 1.20.2 | Supported |
 | 1.20.1 | Supported |
 
 ---
@@ -66,6 +77,18 @@ Requires JDK 21 (JDK 17 is used automatically for 1.20.1 builds).
 ```
 
 Stonecutter handles the version-specific code preprocessing at build time — no manual changes needed between versions.
+
+---
+
+## Testing
+
+To test the mod in-game without manually installing it:
+
+```bash
+# Launch Minecraft Client with the mod (e.g. for 1.21.4)
+./gradlew :1.21.4:runClient
+```
+This will download the specific Minecraft version and assets into a cache and launch it.
 
 ---
 
